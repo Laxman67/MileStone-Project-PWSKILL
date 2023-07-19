@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+  margin: 0px 5px;
+  font-family: sans-serif;
+}
+
+/* Utility Class */
+.orange {
+  color: orange;
+}
+.gray {
+  color: gray;
+}
+
+.header {
+  padding: 1em 3em;
+  font-size: large;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2px auto;
+}
+.font-2xl {
+  font-size: 1.6em;
+  letter-spacing: 2px;
+}
+
+.flex {
+  display: flex;
+}
+
+.nav-links ul,
+.logo {
+  list-style-type: none;
+  display: flex;
+  gap: 30px;
+}
+
+.nav-button {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 130px;
+  height: 60px;
+  padding: 1.3em;
+  border: 1px solid rgb(0, 0, 0);
+}
+.nav-button :link {
+  text-decoration: none;
+  color: black;
+  font-size: large;
+  font-weight: 900;
+}
+
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 4em;
+}
+.hero-section-left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 3em;
+}
+.hero-section-right {
+  width: 50%;
+}
+
+.button-div {
+  display: flex;
+  gap: 2em;
+}
+
+.button-orange {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 130px;
+  height: 60px;
+  padding: 1.3em;
+  background-color: orangered;
+}
+
+.button-orange  :link {
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    font-weight: 900;
+  }
