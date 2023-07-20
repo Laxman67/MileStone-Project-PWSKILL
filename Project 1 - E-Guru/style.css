@@ -62,8 +62,10 @@ html {
 
 .hero-section {
   display: flex;
+  height: 80%;
   justify-content: space-between;
   padding: 4em;
+  background-color: aquamarine;
 }
 .hero-section-left {
   width: 50%;
@@ -72,7 +74,24 @@ html {
   gap: 3em;
 }
 .hero-section-right {
+  position: relative;
+  box-sizing: border-box;
+  padding: 0;
   width: 50%;
+}
+.hero-section-right img {
+  position: absolute;
+  bottom: 1px;
+  left: 30px;
+  height: 350px;
+}
+
+.man-image {
+  position: absolute;
+ right: 90px;
+}
+.pattern-image{
+  z-index: 70;
 }
 
 .button-div {
@@ -90,9 +109,59 @@ html {
   background-color: orangered;
 }
 
-.button-orange  :link {
-    text-decoration: none;
-    color: black;
-    font-size: large;
-    font-weight: 900;
-  }
+.button-orange :link {
+  text-decoration: none;
+  color: black;
+  font-size: large;
+  font-weight: 900;
+}
+
+/* fOOTER  */
+.footer-container {
+  padding: 4em;
+  display: flex;
+  color: white;
+  width: 100%;
+  background-color: rgb(48, 48, 112);
+}
+.footer-container p {
+  color: #b6afaf;
+  font-weight: 500;
+}
+
+.footer-right {
+  display: flex;
+  justify-content: space-around;
+  gap: 3em;
+  width: 60%;
+}
+.footer-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 40%;
+}
+.footer-right-items {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
+.icon-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 1em;
+}
+
+.f-r-i-1 span {
+  background-color: #27e7cd;
+}
+.f-r-i-2 span {
+  background-color: orangered;
+}
+.f-r-i-3 span {
+  background-color: blue;
+}
