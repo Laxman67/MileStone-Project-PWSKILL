@@ -61,24 +61,30 @@ html {
 }
 
 .hero-section {
+  /* background-color: #27e7cd; */
   display: flex;
   height: 80%;
   justify-content: space-between;
-  padding: 4em;
-  background-color: aquamarine;
+  padding: 3em;
 }
 .hero-section-left {
-  width: 50%;
+  width: 40%;
   display: flex;
   flex-direction: column;
   gap: 3em;
 }
+
+/* To be Updated  */
 .hero-section-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #db4242; */
   position: relative;
   box-sizing: border-box;
-  padding: 0;
-  width: 50%;
+  width: 60%;
 }
+
 .hero-section-right img {
   position: absolute;
   bottom: 1px;
@@ -88,11 +94,22 @@ html {
 
 .man-image {
   position: absolute;
- right: 90px;
+  right: 90px;
 }
-.pattern-image{
+
+.circle-image,
+.curve-image,
+.arrow-image,
+.green-arrow-image {
+  width: 50px;
+  height: 50px;
+}
+
+.pattern-image {
   z-index: 70;
 }
+
+/* To be Updated  */
 
 .button-div {
   display: flex;
