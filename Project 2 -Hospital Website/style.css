@@ -1,0 +1,266 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/*   margin: 0px auto; \
+width:80%
+
+*/
+
+html,
+body {
+  font-family: sans-serif;
+  width: 100%;
+  height: 100%;
+}
+
+.top-container {
+  height: 100%;
+  width: 100%;
+  background-image: url(./assets/background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: brightness(1.3);
+}
+
+a:link {
+  text-decoration: none;
+  color: white;
+}
+
+.header {
+  width: 80%;
+  margin: 0px auto;
+  color: white;
+  letter-spacing: 2px;
+  height: 15%;
+
+  display: flex;
+  justify-content: space-between;
+  gap: 2em;
+  align-items: center;
+}
+.header-left {
+  width: 60%;
+}
+
+.header-left,
+.list-nav {
+  display: flex;
+  gap: 2em;
+  justify-content: space-between;
+  align-items: center;
+}
+.list-nav li {
+  cursor: pointer;
+  list-style-type: none;
+}
+
+.button-header button {
+  cursor: pointer;
+  padding: 1em;
+  width: 150px;
+  background-color: rgb(23, 119, 223);
+  border: none;
+  color: white;
+}
+
+/* HERO SECTION */
+.hero {
+  margin: 0 auto;
+  width: 80%;
+  height: 70%;
+  display: flex;
+}
+
+.hero-left {
+  width: 50%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  align-self: center;
+}
+.h-l-inside {
+  width: 80%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+.hero-left button {
+  border-radius: 20px;
+  padding: 1em;
+  width: 150px;
+  background-color: rgb(23, 119, 223);
+  border: none;
+  color: white;
+}
+.hero-left h1 {
+  font-size: 3.5em;
+  color: white;
+}
+.hero-left p {
+  font-size: 1.3em;
+  color: rgb(194, 189, 189);
+  font-weight: 700;
+}
+.hero-left h1 {
+  font-size: 3.5em;
+  color: white;
+}
+
+/* HERO LEFT */
+.hero-right {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-div {
+  background-color: white;
+  width: 50%;
+  height: auto;
+  border-radius: 10px;
+  gap: 1.4em;
+}
+
+.form-div form {
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6em;
+}
+form input,
+select {
+  padding: 0.6em;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+input:placeholder {
+  font-weight: 500;
+  font-size: 1.3em;
+}
+
+form button {
+  cursor: pointer;
+  margin-top: 1.5em;
+  padding: 0.6em;
+  border-radius: 7px;
+  background-color: rgb(23, 118, 212);
+  border: none;
+  color: white;
+}
+
+/* leading-medicine-one */
+
+.leading-medicine-one {
+  width: 80%;
+  margin: 100px auto;
+  background-color: azure;
+  height: auto;
+}
+
+.leading-medicine-1 {
+  padding: 2.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.leading-medicine-1-inside {
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 2em;
+  width: 50%;
+}
+
+.leading-medicine-2 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.leading-medicine-inside {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  margin: 0px auto;
+}
+.card-container {
+  width: 30%;
+  border-radius: 20px;
+  /* padding: .5em; */
+  background-color: rgb(225, 211, 211);
+}
+
+.card-container-lm-2 {
+  padding: 1em;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  border-radius: 10px;
+  border: 1px solid gray;
+  background-color: aliceblue;
+}
+.card-head {
+  border-radius: 10px 10px 0 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  background-color: rgba(3, 133, 172, 0.741);
+  padding: 1.5em;
+}
+.card-head span {
+  height: 50px;
+  width: 50px;
+  background-color: rgb(180, 44, 44);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #edf3f3;
+}
+.card-content {
+  padding: 3em 1em;
+  border: 1px solid rgba(3, 133, 172, 0.741);
+  border-radius: 10px;
+}
+
+.card-content ul > li {
+  font-weight: 600;
+  margin-top: 5px;
+  list-style-type: none;
+}
+.card-content ul > li::before {
+  content: " - ";
+}
+
+.more-explore p {
+  padding-top: 1em;
+  color: blue;
+  font-weight: 600;
+}
+.leading-medicine-two {
+  width: 100%;
+  margin: 100px auto;
+  background-color: rgba(138, 149, 149, 0.88);
+  height: auto;
+}
+
+.user-img img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 1px solid gray;
+}
