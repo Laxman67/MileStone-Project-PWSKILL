@@ -75,40 +75,47 @@ html {
 }
 
 /* To be Updated  */
-.hero-section-right {
+.MainSectionImage {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  width: 55%;
   align-items: center;
-  /* background-color: #db4242; */
+  justify-content: center;
   position: relative;
-  box-sizing: border-box;
-  width: 60%;
 }
 
-.hero-section-right img {
+.MainGuy {
   position: absolute;
-  bottom: 1px;
-  left: 30px;
-  height: 350px;
+  top: 10px;
+  height: 430px;
+  overflow: hidden;
 }
-
-.man-image {
+.main_image_pattern {
   position: absolute;
-  right: 90px;
+  top: -10px;
+}
+.circle {
+  position: absolute;
+  bottom: 50px;
+  right: 70px;
 }
 
-.circle-image,
-.curve-image,
-.arrow-image,
-.green-arrow-image {
-  width: 50px;
-  height: 50px;
+.curve-arrow {
+  position: absolute;
+  bottom: 20px;
+  left: -150px;
+}
+.green-arrow{
+  position: absolute;
+  bottom: 20px;
+  left: 90px;
 }
 
-.pattern-image {
-  z-index: 70;
+.orange-arrow{
+  position: absolute;
+  top: -50px;
+  left: 80px;
 }
-
 /* To be Updated  */
 
 .button-div {
