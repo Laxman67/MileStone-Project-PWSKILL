@@ -22,7 +22,7 @@ body {
   background-image: url(./assets/background.png);
   background-size: cover;
   background-repeat: no-repeat;
-  filter: brightness(1.3);
+  /* filter: brightness(); */
 }
 
 a:link {
@@ -190,6 +190,7 @@ form button {
 .leading-medicine-inside {
   display: flex;
   justify-content: space-around;
+
   align-items: center;
   width: 80%;
   margin: 0px auto;
@@ -256,6 +257,7 @@ form button {
   margin: 100px auto;
   background-color: rgba(138, 149, 149, 0.88);
   height: auto;
+  padding-bottom: 2em;
 }
 
 .user-img img {
@@ -263,4 +265,34 @@ form button {
   height: 70px;
   border-radius: 50%;
   border: 1px solid gray;
+}
+
+.faq-container {
+  width: 80%;
+  margin: 0px auto;
+}
+.faq-item-1 {
+  display: flex;
+}
+
+.faq-item-1-inside {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 2em;
+}
+
+.faq-item-2 {
+  padding: 3em;
+  background-color: aqua;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  justify-content: center;
+  gap: 20px;
+}
+.faq-item-2-inside {
+  margin: 2em;
+  display: flex;
 }
