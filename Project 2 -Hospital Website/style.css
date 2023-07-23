@@ -271,28 +271,114 @@ form button {
   width: 80%;
   margin: 0px auto;
 }
-.faq-item-1 {
-  display: flex;
-}
 
 .faq-item-1-inside {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   gap: 2em;
+  padding-bottom: 1em;
 }
 
 .faq-item-2 {
   padding: 3em;
-  background-color: aqua;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
   grid-template-rows: 1fr;
+  grid-auto-rows: 150px;
   justify-content: center;
-  gap: 20px;
+  justify-content: center;
+  gap: 5px;
+}
+
+.faq-item-1-inside {
+  display: flex;
+  width: 50%;
+  margin: 0px auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.faq-item-2-inside span {
+  color: blue;
+  font-weight: 600;
+  font-size: 1.5em;
 }
 .faq-item-2-inside {
   margin: 2em;
   display: flex;
+  gap: 1em;
+}
+
+.priceContainer {
+  width: 100vw;
+  background-color: rgb(217, 215, 215);
+}
+
+.priceSection {
+  margin: 0px auto;
+  width: 80%;
+  background-color: rgb(217, 215, 215);
+}
+.pricingHead {
+  width: 60%;
+  margin: 3em auto;
+  text-align: center;
+  padding: 1em;
+}
+
+.priceContent {
+  display: flex;
+  gap: 3em;
+  justify-content: center;
+}
+.priceContent ul {
+  padding-top: 1em;
+}
+
+.priceDetails {
+  padding: 2em;
+  width: 60%;
+  border: 1px solid blue;
+  border-radius: 1em;
+}
+.priceDetails button {
+  border-radius: 5px;
+  border: none;
+  background-color: #3e81bc;
+  padding: 0.9em;
+  width: 60%;
+}
+.priceContent ul {
+  padding-left: 2em;
+  list-style-image: url("./assets/list-image-removebg-preview.png");
+}
+
+.priceContent ul > li {
+  gap: 1em;
+  padding-bottom: 1.5em;
+}
+
+.priceNum {
+  display: flex;
+  gap: 1em;
+  margin-top: 2em;
+  color: rgb(35, 136, 191);
+}
+
+.priceNum > h1 {
+  font-size: 4em;
+}
+
+.PriceMonth {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.priceContent .active {
+  background-color: rgb(32, 32, 117);
+  color: white;
 }
