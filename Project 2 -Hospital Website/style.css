@@ -161,7 +161,6 @@ form button {
 .leading-medicine-one {
   width: 80%;
   margin: 100px auto;
-  background-color: azure;
   height: auto;
 }
 
@@ -339,6 +338,7 @@ form button {
 }
 
 .priceDetails {
+  background-color: white;
   padding: 2em;
   width: 60%;
   border: 1px solid blue;
@@ -381,4 +381,65 @@ form button {
 .priceContent .active {
   background-color: rgb(32, 32, 117);
   color: white;
+}
+
+footer {
+  width: 100vw;
+  height: auto;
+}
+.getintouch_section {
+  background-color: rgb(31, 31, 125);
+}
+
+.getintouch_content {
+  color: white;
+  padding: 3em;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 20em;
+  width: 80%;
+  margin: 0px auto;
+}
+.footer-form {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+
+.footer-sumit {
+  border-radius: 2px;
+  margin-top: 0;
+  height: 100%;
+  align-self: top;
+}
+.footer-links {
+  width: 90%;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* gap: 3em; */
+}
+.footer-items {
+  width: 25%;
+}
+.footer-items ul {
+  list-style-type: none;
+  padding: 1em;
+  padding-left: 0;
+}
+.social-links {
+  color: blue;
+  padding-top: 1em;
+  display: flex;
+  gap: 1em;
+}
+.bottom-footer {
+  width: 100%;
+  height: 2em;
+  background-color: rgba(186, 178, 178, 0.798);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
