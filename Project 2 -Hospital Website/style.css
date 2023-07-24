@@ -194,11 +194,12 @@ form button {
   width: 80%;
   margin: 0px auto;
 }
+.ReviewCard1Stars i {
+  color: yellow;
+}
 .card-container {
   width: 30%;
   border-radius: 20px;
-  /* padding: .5em; */
-  background-color: rgb(225, 211, 211);
 }
 
 .card-container-lm-2 {
@@ -314,6 +315,7 @@ form button {
 .priceContainer {
   width: 100vw;
   background-color: rgb(217, 215, 215);
+  padding-bottom: 3em;
 }
 
 .priceSection {
@@ -419,6 +421,7 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 1em 1em;
   /* gap: 3em; */
 }
 .footer-items {
@@ -429,7 +432,16 @@ footer {
   padding: 1em;
   padding-left: 0;
 }
+.footer-items ul > li {
+  cursor: pointer;
+  padding-top: 10px;
+}
+.footer-items ul :hover {
+  font-weight: 550;
+  color: blue;
+}
 .social-links {
+  font-size: 2em;
   color: blue;
   padding-top: 1em;
   display: flex;
